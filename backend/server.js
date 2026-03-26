@@ -21,7 +21,8 @@ app.use(express.json());
 
 // Enable CORS
 app.use(cors({
-  origin: "*"
+  origin: "https://skillnest-mvp.vercel.app/",
+  credentials: true
 }))
 
 // Logging
